@@ -1,0 +1,22 @@
+---
+title: "Pergunta 2"
+author: "Pedro Lobo"
+output:
+  pdf_document: default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(comment = "", out.width = "50%", fig.align = "center")
+library(ggplot2)
+theme_set(theme_light(base_size = 16))
+```
+
+# Código
+```{r, code = readLines("main.r"), message=FALSE, fig.show="hide"}
+```
+
+# Gráfico
+```{r, code = readLines("main.r"), message=FALSE, echo=FALSE}
+```
+
+# Comentários

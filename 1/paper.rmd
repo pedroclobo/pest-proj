@@ -8,7 +8,6 @@ output:
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(comment = "", out.width = "50%", fig.align = "center")
 library(ggplot2)
-library(readxl)
 theme_set(theme_light(base_size = 16))
 ```
 

@@ -18,6 +18,6 @@ mulheres <- read_excel("EsperancaVida.xlsx", range = "BR9:CY70") |>
 
 homens |>
 	rbind(mulheres) |>
-	ggplot(aes(x = Ano, y = Valor, color = País, shape = Sexo)) +
+	ggplot(aes(x = as.factor(Ano), y = Valor, color = País, shape = Sexo)) +
 	geom_point() +
 	labs(x = "Ano", y = "Esperança de vida à nascença (anos)")

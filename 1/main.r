@@ -8,6 +8,5 @@ names(dados) <- c("País", "2004", "2018")
 dados |>
 	subset(País %in% c("PT - Portugal", "NL - Países Baixos", "UK - Reino Unido")) |>
 	pivot_longer(c(`2004`, `2018`), names_to = "Ano", values_to = "Valor") |>
-	ggplot(aes(x = País, y = Valor, fill = Ano)) +
-	geom_bar(stat = "identity", position = "dodge") +
+	ggplot(aes(x = País, y = Valor, fill = Ano)) + geom_col(position = "dodge") +
 	labs(x = "País", y = "Produção de resíduos per capita (t)")

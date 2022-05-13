@@ -9,7 +9,7 @@ regioes <- c("Paio-Pires", "Restelo")
 dados |>
 	select(all_of(regioes)) |>
 	pivot_longer(all_of(regioes), names_to = "Região", values_to = "Valor") |>
-	ggplot(aes(x = Valor, fill = Região)) +
-	geom_histogram(aes(y = ..density..)) +
-	labs(x = expression("Observações horárias de níveis de ozono" ~ bold(µgm^-3)),
+	ggplot(aes(Valor, ..density.., color = Região)) +
+	geom_histogram(fill = "white", alpha = 0.5, position = "identity") +
+	labs(x = expression("Observações horárias de níveis de ozono" ~ "[" * µgm^-3 * "]"),
 	     y = "Densidade")

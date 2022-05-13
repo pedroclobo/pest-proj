@@ -1,5 +1,5 @@
 ---
-title: "Pergunta 3"
+title: \vspace{-2cm} Pergunta 3
 author: "Pedro Lobo"
 output:
   pdf_document: default
@@ -7,19 +7,19 @@ output:
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(comment = "", out.width = "50%", fig.align = "center")
-library(dplyr)
 library(ggplot2)
-library(readxl)
-library(tidyr)
 theme_set(theme_light(base_size = 16))
 ```
 
 # Código
-```{r, code = readLines("main.r")[-append(l <- grep("library", x <- readLines("main.r")), length(l)+1)], message=FALSE, warning=FALSE, fig.show="hide"}
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, fig.show="hide"}
 ```
 
 # Gráfico
-```{r, code = readLines("main.r")[-append(l <- grep("library", x <- readLines("main.r")), length(l)+1)], message=FALSE, warning=FALSE, echo=FALSE}
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, echo=FALSE}
 ```
 
 # Comentários
+- Ambas as regiões apresentam uma distribuição semelhante de níveis de ozono.
+
+- A observações mais frequentes tendem a estar perto do valor de 60 $\mu gm^{-3}$.

@@ -1,5 +1,5 @@
 ---
-title: "Pergunta 2"
+title: \vspace{-2cm} Pergunta 2
 author: "Pedro Lobo"
 output:
   pdf_document: default
@@ -7,19 +7,21 @@ output:
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(comment = "", out.width = "50%", fig.align = "center")
-library(dplyr)
 library(ggplot2)
-library(readxl)
-library(tidyr)
 theme_set(theme_light(base_size = 16))
 ```
 
 # Código
-```{r, code = readLines("main.r")[-append(l <- grep("library", x <- readLines("main.r")), length(l)+1)], message=FALSE, warning=FALSE, fig.show="hide"}
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, fig.show="hide"}
 ```
 
 # Gráfico
-```{r, code = readLines("main.r")[-append(l <- grep("library", x <- readLines("main.r")), length(l)+1)], message=FALSE, warning=FALSE, echo=FALSE}
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, echo=FALSE}
 ```
 
 # Comentários
+- Portugal aprensenta a menor esperança de vida à nascença para ambos os sexos, entre os países apresentados.
+
+- Embora os homens italianos tenham maior esperança de vida à nascença, comparativamente aos homens espanhois, esta tendência não se verifica no sexo feminino.
+
+- A maior esperança de vida à nascença, entre os países aprensentados, é das mulheres espanholas.

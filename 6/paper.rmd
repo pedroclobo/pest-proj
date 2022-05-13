@@ -1,0 +1,28 @@
+---
+title: space{-2cm} \vspace{-2cm} Pergunta 6
+author: "Pedro Lobo"
+geometry: "left=20mm,right=20mm,top=20mm,bottom=20mm"
+output: pdf_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(comment = "")
+library(ggplot2)
+theme_set(theme_light(base_size = 16))
+```
+
+# Valores dos Parâmetros
+*Semente:* $1836$\
+*Dimensões das amostras:* $3, 28, 54$\
+*Parâmetros da distribuição uniforme:* $\left[15, 19\right]$
+
+# Código
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, fig.show="hide"}
+```
+
+# Gráficos
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, echo=FALSE, figures-side, fig.show="hold", out.width="33%"}
+```
+
+# Comentários
+- As médias de cada uma das amostras da população, para a mesma dimensão, seguem uma distribuição normal com valor esperado $E[X]$ e variância $\frac{Var[X]}{n}$, em que $n$ corresponde à dimensão da amostra.

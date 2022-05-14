@@ -1,5 +1,5 @@
 ---
-title: space{-2cm} \vspace{-2cm} Pergunta 6
+title: \vspace{-2cm} Pergunta 6
 author: "Pedro Lobo"
 geometry: "left=20mm,right=20mm,top=20mm,bottom=20mm"
 output: pdf_document

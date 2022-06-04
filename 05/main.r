@@ -1,10 +1,13 @@
 set.seed(655)
 
-x <- rexp(194, 0.18)
-dados <- data.frame(x)
+dimensao <- 194
+lambda <- 0.18
+ponto <- 15
+
+x <- rexp(dimensao, lambda)
 fn <- ecdf(x)
 
-valor_p <- 1 - fn(15)
-valor_t <- 1 - pexp(15, 0.18)
+valor_p <- 1 - fn(ponto)
+valor_t <- 1 - pexp(ponto, lambda)
 
-print(abs(valor_p - valor_t))
+print(round(abs(valor_p - valor_t), 6))

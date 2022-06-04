@@ -1,0 +1,36 @@
+---
+title: \vspace{-2cm} Pergunta 10
+geometry: "left=20mm,right=20mm,top=20mm,bottom=20mm"
+author: Pedro Lobo
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(comment = "", out.width = "100%", fig.align = "center")
+library(ggplot2)
+theme_set(theme_light(base_size = 16))
+```
+
+# Valores dos Parâmetros
+*Semente* $=797$; $m$ $=900$; $\lambda$ $=1.66$; $\lambda_{C}$ $=0.01$; $\epsilon$ $=0.2$; $(1-\alpha)$ $=0.94$
+
+# Código
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, fig.show="hide"}
+```
+
+:::: {style="display: flex;"}
+
+::: {}
+# Gráfico
+```{r, code = readLines("main.r"), message=FALSE, warning=FALSE, echo=FALSE}
+```
+:::
+
+::: {}
+# Comentários
+- A contaminação de uma amostra de uma população $X \sim Exp(\lambda)$ com valores de outra amostra de uma população $Y \sim Exp(\lambda_{C})$ com $\lambda > \lambda_{C}$, resulta num aumento do valor médio da amostra contaminada, relativamente à não contaminada.
+
+- A amplitude do IC é diretamente proporcional à média da amostra. Por isso, é de esperar uma maior amplitude para as amostras contaminadas, tal como evidenciado no gráfico.
+:::
+
+::::

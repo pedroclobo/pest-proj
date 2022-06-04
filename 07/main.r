@@ -1,10 +1,14 @@
 set.seed(970)
 dimensao <- 131
+m <- 1425
+n <- 6
+p <- 0.18
+vesp <- n * p
 
-medias <- data.frame()
+medias <- c()
 
-for (i in seq(1430)) {
-	medias <- rbind(medias, c(mean(rbinom(dimensao, 6, 0.18))))
+for (i in seq(1425)) {
+	medias <- c(medias, mean(rbinom(dimensao, n, p)))
 }
 
-print(abs(mean(medias[, 1]) - 6 * 0.18))
+print(round(abs(mean(medias) - vesp), 6))

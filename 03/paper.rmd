@@ -22,4 +22,4 @@ theme_set(theme_light(base_size = 16))
 # Comentários
 - Ambas as regiões apresentam uma distribuição semelhante de níveis de ozono.
 
-- A observações mais frequentes tendem a estar perto do valor de 60 $\mu gm^{-3}$.
+- A observações mais frequentes estão perto do valor de 60 $\mu gm^{-3}$.

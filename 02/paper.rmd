@@ -22,6 +22,6 @@ theme_set(theme_light(base_size = 16))
 # Comentários
 - Portugal aprensenta a menor esperança de vida à nascença para ambos os sexos, entre os países apresentados.
 
-- Embora os homens italianos tenham maior esperança de vida à nascença, comparativamente aos homens espanhois, esta tendência não se verifica no sexo feminino.
+- Embora os homens italianos tenham maior esperança de vida à nascença, comparativamente aos homens espanhois, esta mesma tendência não se verifica quanto ao sexo feminino.
 
 - A maior esperança de vida à nascença, entre os países aprensentados, é das mulheres espanholas.

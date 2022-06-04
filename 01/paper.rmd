@@ -20,8 +20,8 @@ theme_set(theme_light(base_size = 16))
 ```
 
 # Comentários
-- Os Países Baixos foram o único país que aumentou a produção de resíduos per capita em 2018, face a 2004, dentro dos países apresentados.
+- Os Países Baixos foram o único país que aumentou a produção de resíduos per capita em 2018, face a 2004, entre dos países apresentados.
 
 - Portugal apresenta a menor produção de resíduos per capita dos 3 países apresentados.
 
-- O Reino Unido apresentou a menor variação de produção de resíduos per capita entre 2004 e 2018, dos 3 países.
+- Dos 3 países, o Reino Unido apresentou a menor variação de produção de resíduos per capita entre 2004 e 2018.

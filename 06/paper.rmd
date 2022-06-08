@@ -25,4 +25,4 @@ theme_set(theme_light(base_size = 16))
 ```
 
 # Comentários
-- A distribuição das médias da população, para a mesma dimensão, seguem uma distribuição normal com valor esperado $E[X]$ e variância $\frac{Var[X]}{n}$, em que $n$ corresponde à dimensão da amostra e $X \sim U(15, 19)$.
+- A distribuição das médias da população, para a mesma dimensão, segue uma distribuição normal com valor esperado $E[X]$ e variância $\frac{Var[X]}{n}$, em que $n$ corresponde à dimensão da amostra e $X \sim U(15, 19)$.

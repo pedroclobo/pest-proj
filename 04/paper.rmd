@@ -22,4 +22,4 @@ theme_set(theme_light(base_size = 16))
 # Comentários
 - Pela observação do gráfico, conclui-se que existe um aumento do nível de colesterol à medida que a idade aumenta.
 
-- Existem algums indivíduos com um nível muito elevado colesterol e outros com um nível muito baixo de colesterol. Mesmo dentro de cada um destes grupos, a tendência apontada no comentário anterior mantêm-se.
+- Existem algums indivíduos com um nível muito elevado colesterol e outros com um nível muito baixo de colesterol. Mesmo dentro de cada um destes grupos, a tendência apontada no comentário anterior mantém-se.
